@@ -24,7 +24,7 @@ export default function HomePage() {
     formData.append("file", file);
 
     try {
-      const res = await fetch("http://localhost:8000/processar/", {
+      const res = await fetch("http://localhost:8000/processar-imagem/", {
         method: "POST",
         body: formData,
       });
