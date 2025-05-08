@@ -6,7 +6,7 @@ export const metadata = {
   title: "Detector de Texto em Redações"
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="pt-br">
       <body className={`${inter.className} bg-gray-950 text-white`}>{children}</body>
